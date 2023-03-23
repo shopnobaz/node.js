@@ -1,15 +1,27 @@
 {
   "name": "node",
   "version": "1.0.0",
-  "description": "",
+  "description": "simple node.js server",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "app.js"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "curl": "^0.1.4",
+    "express": "^4.18.2",
     "http": "^0.0.1-security"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shopnobaz/node.js.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/shopnobaz/node.js/issues"
+  },
+  "homepage": "https://github.com/shopnobaz/node.js#readme"
 }
